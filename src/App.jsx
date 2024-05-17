@@ -1,3 +1,9 @@
+import TopBanner from "./components/TopBanner";
+
 export default function App() {
-  return <div className="bg-red-100">Hello, React!</div>;
+  return (
+    <div className="font-pretendard">
+      <TopBanner />
+    </div>
+  );
 }
