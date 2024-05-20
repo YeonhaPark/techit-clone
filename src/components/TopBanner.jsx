@@ -6,6 +6,7 @@ export default function TopBanner() {
   const [isViewed, setIsViewed] = useState(false);
   const handleClickClose = () => {
     localStorage.setItem("isViewed", 1);
+    setIsViewed(true);
   };
 
   useEffect(() => {
@@ -20,7 +21,7 @@ export default function TopBanner() {
         hidden: isViewed,
       })}
     >
-      <div className="flex items-center justify-between max-w-screen-xl mx-auto  text-sm font-medium md:text-base md:font-semibold w-full px-[10px]">
+      <div className="flex items-center justify-between max-w-7xl md:py-2.5 lg:px-6 mx-auto  text-sm font-medium md:text-base md:font-semibold w-full px-[10px]">
         <div className="flex items-center">
           기초가 탄탄한 클라우드 엔지니어 교육
           <img

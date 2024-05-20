@@ -75,3 +75,67 @@
       format("woff");
   }
 }
+
+@layer components {
+  .nav-btn {
+    @apply flex items-center;
+    a {
+      @apply px-4 py-5 font-semibold text-techit-gray-100;
+    }
+  }
+}
+
+.bg-banner-0 {
+  @apply bg-[url('/images/home_banner_360_unity_1st.webp')];
+}
+.bg-banner-1 {
+  @apply bg-[url('/images/home_banner_360_epson.webp')];
+}
+
+.bg-banner-2 {
+  @apply bg-[url('/images/home_banner_360_likelion-next.webp')];
+}
+.bg-banner-3 {
+  @apply bg-[url('/images/home_banner_360_startupstation_5th.webp')];
+}
+.bg-banner-4 {
+  @apply bg-[url('/images/home_banner_360_event_v2.webp')];
+}
+
+.bg-banner-0-lg {
+  @apply bg-[url('/images/home_banner_1024_unity_1st.webp')];
+}
+
+.bg-banner-1-lg {
+  @apply bg-[url('/images/home_banner_1024_epson.webp')];
+}
+.bg-banner-2-lg {
+  @apply bg-[url('/images/home_banner_1024_likelion-next.webp')];
+}
+
+.bg-banner-3-lg {
+  @apply bg-[url('/images/home_banner_1024_startupstation_5th.webp')];
+}
+
+.bg-banner-4-lg {
+  @apply bg-[url('/images/home_banner_1024_event_v2.webp')];
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-banner-0 {
+    @apply bg-banner-0-lg;
+  }
+
+  .lg\:bg-banner-1 {
+    @apply bg-banner-1-lg;
+  }
+  .lg\:bg-banner-2 {
+    @apply bg-banner-2-lg;
+  }
+  .lg\:bg-banner-3 {
+    @apply bg-banner-3-lg;
+  }
+  .lg\:bg-banner-4 {
+    @apply bg-banner-4-lg;
+  }
+}
