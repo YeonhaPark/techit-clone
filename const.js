@@ -33,4 +33,5 @@ const banners = [
     description: "직무별 개발자 인터뷰부터 수료생 리얼 후기까지!",
   },
 ];
+
 export { banners };

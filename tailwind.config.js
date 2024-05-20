@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        "techit-gray": { 100: "#222222" },
+        "techit-gray": { 100: "#222222", 300: "#262626" },
+        "techit-yellow": { 350: "#ff7710" },
+        "techit-blue": { 500: "#3B82F6", 700: "#1D4ED8" },
       },
       backgroundImage: {
         "banner-0": "url('/images/home_banner_360_unity_1st.webp')",

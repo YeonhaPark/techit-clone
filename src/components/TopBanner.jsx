@@ -17,7 +17,7 @@ export default function TopBanner() {
   }, []);
   return (
     <div
-      className={c("flex items-center gap-2 h-[42px] bg-[#ff7711]", {
+      className={c("flex items-center gap-2 h-[42px] bg-techit-yellow-350", {
         hidden: isViewed,
       })}
     >

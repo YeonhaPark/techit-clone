@@ -83,6 +83,9 @@
       @apply px-4 py-5 font-semibold text-techit-gray-100;
     }
   }
+  .container-style {
+    @apply max-w-7xl mx-auto;
+  }
 }
 
 .bg-banner-0 {
