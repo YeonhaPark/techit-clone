@@ -3,15 +3,14 @@
     "title": "앱 스쿨 : iOS",
     "description": "iOS 개발 실무부터 앱 배포까지 취업에 최적화된 부트캠프",
     "image": "ios",
-    "startAt": "24.05.07",
-    "endAt": "24.05.27"
+    "startAt": "24.04.15",
   },
   {
     "title": "유니티 게임 스쿨",
     "description": "게임 개발자로 거듭나기 위한 6개월간의 여정",
     "image": "unity",
-    "startAt": "24.04.15",
-    "endAt": "24.05.30"
+    "startAt": "24.05.07",
+    "endAt": "24.05.27"
   },
   {
     "title": "클라우드 엔지니어링 스쿨",
