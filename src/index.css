@@ -80,7 +80,7 @@
   .nav-btn {
     @apply flex items-center;
     a {
-      @apply px-4 py-5 font-semibold text-techit-gray-100;
+      @apply px-4 py-5 font-semibold text-techit-gray-400;
     }
   }
   .container-style {

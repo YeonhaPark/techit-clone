@@ -4,9 +4,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        "techit-gray": { 100: "#222222", 300: "#262626" },
+        "techit-gray": {
+          100: "rgb(229, 229, 229)",
+          200: "rgb(115, 115, 115)",
+          300: "#262626",
+          400: "#222222",
+        },
+        "techit-pink": { 100: "#F7E3FC" },
+        "techit-purple": { 100: "#E8E5FF" },
+        "techit-green": { 100: "#EAF7EB" },
         "techit-yellow": { 350: "#ff7710" },
-        "techit-blue": { 500: "#3B82F6", 700: "#1D4ED8" },
+        "techit-blue": {
+          100: "#E5F4FF",
+          200: "#E5EFFE",
+          500: "#3B82F6",
+          700: "#1D4ED8",
+        },
+        "techit-teal": { 200: "#CBFBF1" },
+        "techit-red": { 100: "#FCE8E6" },
       },
       backgroundImage: {
         "banner-0": "url('/images/home_banner_360_unity_1st.webp')",

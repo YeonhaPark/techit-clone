@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Badge from "./Badge";
 export default function Header() {
   return (
-    <header className="border">
+    <header className="sticky top-0 border z-10 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between">
           <div className="flex items-center">

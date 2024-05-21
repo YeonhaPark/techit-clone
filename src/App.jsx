@@ -5,7 +5,7 @@ import KdtSection from "./components/KdtSection";
 import ScheduleSection from "./components/ScheduleSection";
 export default function App() {
   return (
-    <div className="font-pretendard">
+    <div className="font-pretendard mb-96">
       <TopBanner />
       <Header />
       <SimpleSlider />
