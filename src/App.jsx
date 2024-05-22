@@ -5,6 +5,7 @@ import KdtSection from "./components/KdtSection";
 import ScheduleSection from "./components/ScheduleSection";
 import StripBanner from "./components/StripBanner";
 import OnboardingSection from "./components/OnboardingSection";
+import TrendSection from "./components/TrendSection";
 export default function App() {
   return (
     <div className="font-pretendard mb-96">
@@ -15,6 +16,7 @@ export default function App() {
       <ScheduleSection />
       <StripBanner />
       <OnboardingSection />
+      <TrendSection />
     </div>
   );
 }
