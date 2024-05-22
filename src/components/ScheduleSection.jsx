@@ -3,9 +3,10 @@ import TitleBar from "./TitleBar";
 
 import c from "classnames";
 import SchoolsPerClass from "./SchoolsPerClass";
+import SchoolsPerMonth from "./SchoolsPerMonth";
 
 export default function ScheduleSection() {
-  const [selectedTab, setSelectedTab] = useState("class");
+  const [selectedTab, setSelectedTab] = useState("month");
 
   return (
     <section className="mt-10 lg:mt-20 px-6 ">
@@ -15,7 +16,7 @@ export default function ScheduleSection() {
         moreDetail={false}
       />
       <div className="mt-8 px-4 lg:mx-auto lg:mt-10 lg:px-6 container-style">
-        <div className="mt-5 border-b border-techit-gray-100 lg:border-b">
+        <div className="mt-5 mb-6 border-b border-techit-gray-100 lg:border-b">
           <button
             className={c(
               {
@@ -44,6 +45,7 @@ export default function ScheduleSection() {
           </button>
         </div>
         {selectedTab === "class" && <SchoolsPerClass />}
+        {selectedTab === "month" && <SchoolsPerMonth />}
       </div>
     </section>
   );

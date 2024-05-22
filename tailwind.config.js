@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "techit-gray": {
+          50: "#F5F5F5",
           100: "rgb(229, 229, 229)",
           200: "rgb(115, 115, 115)",
           300: "#262626",
@@ -13,7 +14,7 @@ export default {
         "techit-pink": { 100: "#F7E3FC" },
         "techit-purple": { 100: "#E8E5FF" },
         "techit-green": { 100: "#EAF7EB" },
-        "techit-yellow": { 350: "#ff7710" },
+        "techit-yellow": { 100: "#FFEDD5", 350: "#ff7710" },
         "techit-blue": {
           100: "#E5F4FF",
           200: "#E5EFFE",
