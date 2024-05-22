@@ -7,6 +7,7 @@ import StripBanner from "./components/StripBanner";
 import OnboardingSection from "./components/OnboardingSection";
 import TrendSection from "./components/TrendSection";
 import EducationSection from "./components/EducationSection";
+import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="font-pretendard mb-96">
@@ -19,6 +20,7 @@ export default function App() {
       <OnboardingSection />
       <TrendSection />
       <EducationSection />
+      <Footer />
     </div>
   );
 }
