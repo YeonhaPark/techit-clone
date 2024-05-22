@@ -22,10 +22,10 @@ export default function OnboardingCard({
           ))}
         </div>
         <h3 className="mt-3 text-sm font-semibold text-gray-800 lg:text-lg">
-          [블록체인] 나만의 NFT 생성부터 판매까지
+          {title}
         </h3>
         <h5 className="mt-3 text-xs text-techit-gray-200 lg:text-base">
-          화제의 블록체인 스킬을 내 손으로 재현!
+          {description}
         </h5>
         <div className="mt-2">
           <span className="text-sm font-medium text-gray-800 lg:text-base">
