@@ -8,9 +8,10 @@ import OnboardingSection from "./components/OnboardingSection";
 import TrendSection from "./components/TrendSection";
 import EducationSection from "./components/EducationSection";
 import Footer from "./components/Footer";
+import FloatingButton from "./components/FloatingButton";
 export default function App() {
   return (
-    <div className="font-pretendard mb-96">
+    <div className="font-pretendard relative">
       <TopBanner />
       <Header />
       <SimpleSlider />
@@ -21,6 +22,7 @@ export default function App() {
       <TrendSection />
       <EducationSection />
       <Footer />
+      <FloatingButton />{" "}
     </div>
   );
 }
